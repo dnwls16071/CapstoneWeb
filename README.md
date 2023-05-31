@@ -36,3 +36,16 @@
  <img src="https://img.shields.io/badge/PostgreSQL-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
   <img src="https://img.shields.io/badge/Flask-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
 </div>
+
+# File Structure
+
+```bash
+├── css
+│   ├── sign_up.css
+├── code
+│   ├── train.py
+│   ├── classify.py
+│   ├── model.py
+│   └── dataset.py
+└── run.sh
+``` 
