@@ -23,9 +23,16 @@
 |Frontend|Javascript, HTML5, CSS, Jquery, Ajax|
 |IDE|Vs Code, Pycharm Community Professional 2023.1.1|
 
-# Technical Stack
+# Tech Stack
 
 <div class="container">
- <img src="https://img.shields.io/badge/html5-E34F26?style=plastic&logo=html5&logoColor=white">
- 
+ <img src="https://img.shields.io/badge/HTML5-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
+ <img src="https://img.shields.io/badge/Css-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
+ <img src="https://img.shields.io/badge/Javascript-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
+ <img src="https://img.shields.io/badge/Ajax-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
+ <img src="https://img.shields.io/badge/Jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
+ <img src="https://img.shields.io/badge/Bootstrap-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
+ <img src="https://img.shields.io/badge/Python-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
+ <img src="https://img.shields.io/badge/PostgreSQL-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
+  <img src="https://img.shields.io/badge/Flask-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
 </div>
