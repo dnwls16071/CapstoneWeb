@@ -46,7 +46,7 @@
 │   ├── css
 │   ├── fonts
 │   ├── images
-|   ├── js
+│   ├── js
 │   └── videos
 └── code
 │   ├── app.py
