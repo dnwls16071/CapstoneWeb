@@ -42,10 +42,12 @@
 ```bash
 ├── css
 │   ├── sign_up.css
-├── code
-│   ├── train.py
-│   ├── classify.py
-│   ├── model.py
-│   └── dataset.py
-└── run.sh
+├── static
+│   ├── css
+│   ├── fonts
+│   ├── images
+|   ├── js
+│   └── videos
+└── code
+│   ├── app.py
 ``` 
