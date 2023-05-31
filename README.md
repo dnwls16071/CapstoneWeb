@@ -1,16 +1,16 @@
-# 개요
-* 2023학년도 1학기 정보통신공학과 캡스톤디자인 프로젝트 설명 페이지입니다.
+# Outline
+* This is the information and communication engineering department capstone design project description page for the first semester of 2023.
 
-# 팀
-* 팀명 : Old Jeans
+# Team
+* Team name : Old Jeans
  
-* 팀원 및 역할
+* Team members and Role
    
-   * 윤성원(팀장) : 프로젝트 진행 총괄 & PPT 발표 자료 작성 & 프론트엔드
-   * 김장섭(팀원) : 프론트엔드 
-   * 이승우(팀원) : 프론트엔드 
-   * 오동준(팀원) : 프론트엔드
-   * 장우진(개발 총괄) : 서버 구축 & 관리 & 백엔드 & 데이터베이스 생성 & 관리, 테스트 데이터 유효성 검사
+   * 윤성원(팀장) : Overall project progress & Create PPT presentation materials & Frontend
+   * 김장섭(팀원) : Dark Mode, Light Mode Background & Frontend
+   * 이승우(팀원) : 
+   * 오동준(팀원) : Overall Css & Frontend
+   * 장우진(개발 총괄) : Server deployment and management & Creating and Managing Databases & Test data validation & Backend
 
 
 # Development Environment
@@ -21,4 +21,11 @@
 |Framework|Flask|
 |Backend|Python 3.10.x|
 |Frontend|Javascript, HTML5, CSS, Jquery, Ajax|
+|IDE|Vs Code, Pycharm Community Professional 2023.1.1|
 
+# Technical Stack
+
+<div class="container">
+ <img src="https://img.shields.io/badge/html5-E34F26?style=plastic&logo=html5&logoColor=white">
+ 
+</div>
