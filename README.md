@@ -1,15 +1,24 @@
 # Outline
-* This is the information and communication engineering department capstone design project description page for the first semester of 2023.
+* 2023학년도 3학년 1학기 정보통신공학과 캡스톤디자인 프로젝트 관리 페이지입니다.
 
 # Team
-* Team name : Old Jeans
+* 팀명 : Old Jeans
  
-* Team members and Role
+* 팀원 및 팀원 역할
 
-|윤성원|오동준|김장섭|이승우|장우진|
-|---------|---------|---------|---------|---------|
-|전반적인 프로젝트 담당 & PPT 발표 자료 작성 & 프론트엔드|디자인 담당 & 프론트엔드|페이지 디스플레이 & 레이아웃 & 프론트엔드|페이지 디스플레이 & 레이아웃 & 마케팅 담당 & 프론트엔드||
+|윤성원(팀장)|오동준|김장섭|이승우|장우진(개발 총괄)|
+|:---------------------:|:---------------------:|:---------------------:|:---------------------:|:---------------------:|
+|Frontend|Frontend|Frontend|Frontend|Backend|
 
+* 윤성원(팀장) : 전반적인 프로젝트 진행 & 주차별 PPT 발표 자료 제작 & 탁상 달력 가이드 제작 
+
+* 오동준 : 일러스트 담당
+
+* 김장섭 : 달력 UI/UX 담당 
+
+* 이승우 : 달력 UI/UX 담당 & 카카오톡 채널, 인스타 계정 등을 활용한 마케팅 담당
+
+* 장우진 : 웹 서버 구축과 관리 & 데이터베이스 생성과 관리 & CRUD 구현
 
 # Development Environment
 
@@ -38,14 +47,15 @@
 # File Structure
 
 ```bash
-├── css
-│   ├── sign_up.css
+├── templates
+│   ├── index.html    # FullCalendar loading page
+│   └── login.html    # login & Sign Up page
 ├── static
-│   ├── css
-│   ├── fonts
-│   ├── images
-│   ├── js
-│   └── videos
+│   ├── css           # FullCalendar css
+│   ├── fonts         # FullCalendar fonts
+│   ├── images        # FullCalendar images
+│   ├── js            # Display Setting, 
+│   └── videos        
 └── code
-│   ├── app.py
+│   ├── app.py        # Backend
 ``` 
