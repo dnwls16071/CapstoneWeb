@@ -5,12 +5,10 @@
 * Team name : Old Jeans
  
 * Team members and Role
-   
-   * 윤성원(팀장) : Overall project progress & Create PPT presentation materials & Frontend
-   * 김장섭(팀원) : Dark Mode, Light Mode Background & Frontend
-   * 이승우(팀원) : 
-   * 오동준(팀원) : Overall Css & Frontend
-   * 장우진(개발 총괄) : Server deployment and management & Creating and Managing Databases & Test data validation & Backend
+
+|윤성원|오동준|김장섭|이승우|장우진|
+|---------|---------|---------|---------|---------|
+|전반적인 프로젝트 담당 & PPT 발표 자료 작성 & 프론트엔드|디자인 담당 & 프론트엔드|페이지 디스플레이 & 레이아웃 & 프론트엔드|페이지 디스플레이 & 레이아웃 & 마케팅 담당 & 프론트엔드||
 
 
 # Development Environment
@@ -26,15 +24,15 @@
 # Tech Stack
 
 <div class="container">
- <img src="https://img.shields.io/badge/HTML5-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
- <img src="https://img.shields.io/badge/Css-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
- <img src="https://img.shields.io/badge/Javascript-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
- <img src="https://img.shields.io/badge/Ajax-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
- <img src="https://img.shields.io/badge/Jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
- <img src="https://img.shields.io/badge/Bootstrap-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
- <img src="https://img.shields.io/badge/Python-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
- <img src="https://img.shields.io/badge/PostgreSQL-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
-  <img src="https://img.shields.io/badge/Flask-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
+ <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
+ <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+ <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+ <img src="https://img.shields.io/badge/jquery-FFCA28?style=for-the-badge&logo=jquery&logoColor=white">
+ <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+ <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
+ <img src="https://img.shields.io/badge/PostgreSQL-003545?style=for-the-badge&logo=PostgreSQL&logoColor=white"> 
+ <img src="https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white">
+ <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 </div>
 
 # File Structure
