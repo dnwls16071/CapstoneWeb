@@ -8,7 +8,7 @@
 
 |윤성원(팀장)|오동준|김장섭|이승우|장우진(개발 총괄)|
 |:---------------------:|:---------------------:|:---------------------:|:---------------------:|:---------------------:|
-||201716042||||
+||201716042|||201916071|
 |Frontend|Frontend|Frontend|Frontend|Backend|
 
 * 윤성원(팀장)
@@ -37,9 +37,15 @@
 
   * 
 
-  *  
+  * 
 
-* 장우진 : 웹 서버 구축과 관리 & 데이터베이스 생성과 관리 & CRUD 구현 & 깃허브 관리
+* 장우진(개발 총괄)
+
+  * 모든 백엔드 기능 개발
+  
+  * Flask 웹 서버 구축 & 관리
+  
+  * PostgreSQL 데이터베이스 생성 & 관리
 
 # Development Environment
 
@@ -76,7 +82,7 @@
 │   ├── css           # FullCalendar css
 │   ├── fonts         # FullCalendar fonts
 │   ├── images        # FullCalendar images
-│   ├── js            # Display Setting, 
+│   ├── js            # Display Setting
 │   └── videos        
 └── code
 │   ├── app.py        # Backend
