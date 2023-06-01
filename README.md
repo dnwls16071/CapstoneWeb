@@ -8,6 +8,7 @@
 
 |윤성원(팀장)|오동준|김장섭|이승우|장우진(개발 총괄)|
 |:---------------------:|:---------------------:|:---------------------:|:---------------------:|:---------------------:|
+||201716042||||
 |Frontend|Frontend|Frontend|Frontend|Backend|
 
 * 윤성원(팀장)
@@ -26,9 +27,17 @@
 
   * 인스타 홍보 마케팅 담당
   
-  * 페이지 UI/UX
+  * 메인 페이지 & 달력 페이지 UI/UX
 
-* 이승우 : 달력 UI/UX 담당 & 카카오톡 채널, 인스타 계정 등을 활용한 마케팅 담당
+* 이승우 
+
+  * 카카오톡 홍보 마케팅 담당
+  
+  * 메인 페이지 & 달력 페이지 UI/UX
+
+  * 
+
+  *  
 
 * 장우진 : 웹 서버 구축과 관리 & 데이터베이스 생성과 관리 & CRUD 구현 & 깃허브 관리
 
@@ -38,6 +47,7 @@
 |:---|:---|
 |Database|PostgreSQL|
 |Framework|Flask|
+|SCM|Git|
 |Backend|Python 3.10.x|
 |Frontend|Javascript, HTML5, CSS, Jquery, Ajax|
 |IDE|Vs Code, Pycharm Community Professional 2023.1.1|
