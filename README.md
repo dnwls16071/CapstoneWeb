@@ -81,3 +81,18 @@
 └── code
 │   ├── app.py        # Backend
 ``` 
+
+# Environment Variable
+
+### Environment Variable setting
+```bash
+DB_HOST = "DB 호스트 이름"
+DB_NAME = "DB 이름"
+DB_USER = "DB 사용자 이름"
+DB_PASS = "DB 비밀번호"
+app.secret_key = "암호화 인증 비밀키"
+```
+
+```bash
+flask run
+```
