@@ -90,11 +90,11 @@
 
 # File Guide
 
-   * test.csv : 날짜 형식이 맞춰진 연간 데이터 파일
+   * test.csv(=schedule.csv) : 날짜 형식이 맞춰진 연간 데이터 파일
    
-   * test.pptx : 탁상 달력 제작 가이드 PPT 파일
+   * guide.pdf : 탁상 달력 제작 가이드 PDF 파일
    
-   * test.xlsx : 탁상 달력 제작 관련 안내 사항 xlsx 파일
+   * template.zip : 템플릿 안내 파일
 
 # Setup Environment
 
