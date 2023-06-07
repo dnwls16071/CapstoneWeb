@@ -1,0 +1,400 @@
+<!--static templates : 웹 페이지를 구성하는 파일(html, css, js)들을 놓아두고 서버가 활용하도록 합니다.-->
+
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    
+        <link href="static/css/bootstrap.min.css" rel="stylesheet">
+        <link href="static/css/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link href="static/css/aos.css" rel="stylesheet">
+        <link href="static/css/templatemo-nomad-force.css" rel="stylesheet">
+        <link href="static/css/bootstrap.css" rel="stylesheet">
+        <link href="static/css/font.css" rel="stylesheet">
+        <link href="static/css/rabbit.css" rel="stylesheet">
+    <meta charset="utf-8"/>
+    <!-- 새로고침 간격 1초 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta http-equiv="refresh" content="2"/> -->
+    <title>Old Jeans FullCalendar</title>
+    <style>
+      html {
+        zoom: 1.0;
+      }
+    </style>
+
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        background-size: cover;
+        background-position: center;
+        font-family: 'Caveat', cursive;
+        font-family: 'Nanum Pen Script', cursive;
+        
+        
+      }
+    </style>
+    <style>
+      .theme-button {
+        color: black;
+        font-size: 20px;
+      }
+    
+      .active-button {
+        background-color: #007bff;
+        color: white;
+      }
+    </style>
+    <script>
+      var currentTheme = 1;
+    
+      function setBackgroundImage() {
+        var date = new Date();
+        var hour = date.getHours();
+    
+        var backgroundImageUrl;
+    
+        if (currentTheme === 1) {
+          if (hour >= 3 && hour < 8) {
+            backgroundImageUrl = "/static/images/calendar_back/아침.png";
+          } else if (hour >= 8 && hour < 17) {
+            backgroundImageUrl = "/static/images/calendar_back/낮.png";
+          } else if (hour >= 17 && hour < 19) {
+            backgroundImageUrl = "/static/images/calendar_back/저녁.png";
+          } else {
+            backgroundImageUrl = "/static/images/calendar_back/밤.png";
+          }
+        } else if (currentTheme === 2) {
+          if (hour >= 3 && hour < 8) {
+            backgroundImageUrl = "/static/images/calendar_back/아침.jpg";
+          } else if (hour >= 8 && hour < 17) {
+            backgroundImageUrl = "/static/images/calendar_back/낮.jpg";
+          } else if (hour >= 17 && hour < 19) {
+            backgroundImageUrl = "/static/images/calendar_back/저녁.jpg";
+          } else {
+            backgroundImageUrl = "/static/images/calendar_back/밤.jpg";
+          }
+        }
+    
+        document.body.style.backgroundImage = "url('" + backgroundImageUrl + "')";
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundPosition = "center";
+        document.body.style.backgroundRepeat = "no-repeat";
+      }
+    
+      function changeTheme(theme) {
+        currentTheme = theme;
+        setBackgroundImage();
+    
+        // 버튼 스타일 변경
+        var themeButtons = document.getElementsByClassName('theme-button');
+        for (var i = 0; i < themeButtons.length; i++) {
+          themeButtons[i].classList.remove('active-button');
+        }
+    
+        var activeButton = document.getElementById('theme-' + currentTheme);
+        activeButton.classList.add('active-button');
+      }
+    
+      // 페이지 로드 시 백그라운드 이미지를 설정하고 1분마다 변경합니다.
+      window.addEventListener('load', setBackgroundImage);
+    </script>
+
+    <!--폰트 설정, 폰트 사이즈, 주말+평일 디자인 구현 부분-->
+    <style type="text/css">
+      body {
+        position: relative;
+
+        .fc h2 {
+          font-size: 40px;
+          font-weight: bold;
+          margin-right: 10px;
+          text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+        .fc .fc-toolbar > * > * {
+          margin-top: 50px; 
+          float: left;
+          margin-left: 0.75em;
+          display: -webkit-inline-box;
+        }
+        /*캘린더 요일 바 컬러 설정*/
+        .fc-head {
+          line-height: 50px;
+          font-size: 15px;
+          font-weight: bold;
+          background-color: rgb(20 20 20 / 46%);
+        }
+        /*일정 등록 컬러 설정*/
+        .fc-content {
+          font-size: 16px;
+          color: black;
+          background-color: rgb(201 171 121);
+        }
+
+        .fc-sun {
+          color: #e31b23;
+     
+        }
+
+        .fc-sat {
+          color: #007dc3;
+
+        }
+      
+
+      
+    </style>
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600%22%3E" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons%22%3E" />
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap/.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
+    <script>
+
+      $(document).ready(function() {
+          var calendar = $('#calendar').fullCalendar({
+            /*navLinks: true,*/
+            nowIndicator: true,
+            dayHeaders: true,
+            initialView: 'listWeek',
+            weekNumbers: true,
+            weekTextLong: "week",
+            weekends: true,
+            height: 600,
+            contentHeight: 650,
+            aspectRatio: 1.35,
+            dayMaxEvents: true,
+            eventMaxStack: 3,
+            eventLimit: true,
+            views: {
+              timeGrid: {
+                eventLimit: 3
+              }
+            },
+            dayMaxEventRows: true,
+            views: {
+              timeGrid: {
+                dayMaxEventRows: 6
+              }
+            },
+            displayEventEnd: true,
+            editable: true,
+            header:{
+            left:'prev,next today',
+            center:'title',
+            right:'month, agendaWeek,agendaDay'
+            },
+
+          events: [{% for row in calendar %}{ id : '{{row.id}}', title : '{{row.title}}', start : '{{row.start_event}}', end : '{{row.end_event}}', }, {% endfor %}],
+          selectable:true,
+          selectHelper:true,
+          select:function(start, end, allDay)
+          {
+            var title = prompt("일정명을 입력하세요");
+            if (title)
+            {
+              var start = $.fullCalendar.formatDate(start, "Y-MM-DD HH:mm:ss");
+              var end = $.fullCalendar.formatDate(end, "Y-MM-DD HH:mm:ss");
+              $.ajax({
+                url:"/insert",
+                type:"POST",
+                eventOrder: 'sortIdx',
+                data:{title:title, start:start, end:end},
+                success:function(data)
+                {
+                  alert("일정이 추가되었습니다!");
+                  window.location.replace("/");
+                }
+              })
+            }
+          },
+
+          editable:true,
+          eventResize:function(event)
+          {
+            var start = $.fullCalendar.formatDate(event.start, "Y-MM-DD HH:mm:ss");
+            var end = $.fullCalendar.formatDate(event.end, "Y-MM-DD HH:mm:ss");
+            var title = event.title;
+            var id = event.id;
+            $.ajax({
+              url:"/update",
+              type:"POST",
+              data:{title:title, start:start, end:end, id:id},
+              success:function(){
+              calendar.fullCalendar('refetchEvents');
+              alert('일정이 수정되었습니다!');
+              }
+            })
+          },
+
+          eventDrop:function(event)
+          {
+            var start = $.fullCalendar.formatDate(event.start, "Y-MM-DD HH:mm:ss");
+            var end = $.fullCalendar.formatDate(event.end, "Y-MM-DD HH:mm:ss");
+            var title = event.title;
+            var id = event.id;
+            $.ajax({
+              url:"/update",
+              type:"POST",
+              data:{title:title, start:start, end:end, id:id},
+              success:function()
+              {
+              calendar.fullCalendar('refetchEvents');
+              alert("일정이 수정되었습니다!");
+              }
+            });
+          },
+
+          eventClick:function(event)
+          {
+            if(confirm("일정을 삭제하시겠습니까?"))
+            {
+              var id = event.id;
+              $.ajax({
+                url:"./ajax_delete",
+                type:"POST",
+                data:{id:id},
+                success:function()
+                {
+                  calendar.fullCalendar('refetchEvents');
+                  alert("일정이 삭제되었습니다!");
+                  window.location.href = "/";
+                }
+              })
+            }
+          },
+        });
+      });
+    </script>
+  </head>
+  <section class="section-calendar">
+  <body class="index">
+    <!-- 캘린더 크기 줄이기 위한 방식 -->
+    <div class="calendar-wrapper">
+      <button id="theme-1" class="theme-button active-button" onclick="changeTheme(1)">테마 1</button>
+      <button id="theme-2" class="theme-button" onclick="changeTheme(2)">테마 2</button>
+      <div id="calendar"></div>
+    </div>
+  </section>
+    <!-- 크기 설정  -->
+    <style>
+      .calendar-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+    </style>
+    <!-- 여기서부터 logout 버튼 -->
+    <section class="section-button">
+      <div class="button-wrapper">
+        <div id="button">
+        
+        {% if current_user.is_authenticated %}
+        <div class="fc-bottom-toolbar shadow-lg">
+          <div class='rabbit'></div>
+          <div class='clouds'></div>
+
+          <!-- 로그아웃 버튼 -->
+          <a href="{{ url_for('logout') }}" class="logout carrot-button">
+            <!-- <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20121101_106%2Fwlstnrla06_1351734950679RuBjk_JPEG%2F331274.jpg&type=sc960_832" alt="carrot" class="carrot-icon"> -->
+            로그아웃
+          </a>
+          <!-- CSV 업로드 버튼 -->
+          <form action="/upload_csv" method="post" enctype="multipart/form-data" class="csv">
+            <label for="csv-file" class="carrot-button">
+              <!-- <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20121101_106%2Fwlstnrla06_1351734950679RuBjk_JPEG%2F331274.jpg&type=sc960_832" alt="carrot" class="carrot-icon"> -->
+              <span class="file-label">파일 선택</span>
+            </label>
+            <input type="file" id="csv-file" name="csv_file" accept=".csv" style="display: none;" onchange="showSelectedFileName()">
+            <span id="selected-file-name"></span>
+            <input class="carrot-button" type="submit" value="upload">
+          </form>
+          
+          <style>
+            .carrot-button {
+              background-color: orange;
+              color: #000000;
+              border-radius: 50px; /* 당근 모양을 만들기 위한 border-radius 속성 */
+            }
+          
+            .carrot-button:hover {
+              background-color: #FF6700; /* 버튼에 마우스를 올렸을 때의 스타일 */
+            }
+            
+            .carrot-button:active {
+              background-color: #FF6700; /* 버튼을 클릭했을 때의 스타일 */
+            }
+          </style>
+            <script>
+              function showSelectedFileName() {
+                const fileInput = document.getElementById('csv-file');
+                const fileNameDisplay = document.getElementById('selected-file-name');
+                
+                if (fileInput.files.length > 0) {
+                  fileNameDisplay.textContent = fileInput.files[0].name;
+                } else {
+                  fileNameDisplay.textContent = '';
+                }
+              }
+            </script>
+          <!-- 일괄 삭제 버튼 -->
+          <form id="delete-form" action="/delete_all" method="post" class="all-delete">
+            <button type="submit" class="delete-btn carrot-button">
+              <!-- <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20121101_106%2Fwlstnrla06_1351734950679RuBjk_JPEG%2F331274.jpg&type=sc960_832" alt="carrot" class="carrot-icon"> -->
+              모든 일정 삭제
+            </button>
+          </form>
+          <script>
+            const deleteBtns = document.querySelectorAll('.delete-btn');
+            deleteBtns.forEach(btn => {
+              btn.addEventListener('click', function(event) {
+                event.preventDefault();
+                if (confirm("일정을 전부 삭제하시겠습니까?")) {
+                  document.querySelector('#delete-form').submit();
+                }
+              });
+            });
+            </script>
+            </div>
+            {% endif %}
+            <style>
+              .carrot-button {
+                position: relative;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                padding: 8px 16px;
+                background-color: transparent;
+                color: #000;
+                font-weight: 800;
+                font-size: 20px;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                color: orange; 
+                
+              }
+            </style>
+          </div>
+            <style>
+              .button-wrapper {
+                max-width: 1200px;
+                margin: 0 auto;
+              }
+            </style>
+          </div>
+          </div>
+          </nav>
+          </section>
+          
+            </body>
+          </html>
