@@ -47,7 +47,7 @@
   
   * PostgreSQL 데이터베이스 생성 & 관리
 
-# Development Environment
+# Development Environment & Tool
 
 |System|Name|
 |:---|:---|
@@ -88,9 +88,17 @@
 │   ├── app.py        # Backend
 ``` 
 
-# Environment Variable
+# File Guide
 
-### Environment Variable setting
+   * test.csv : 날짜 형식이 맞춰진 연간 데이터 파일
+   
+   * test.pptx : 탁상 달력 제작 가이드 PPT 파일
+   
+   * test.xlsx : 탁상 달력 제작 관련 안내 사항 xlsx 파일
+
+# Setup Environment
+
+Create Database Environment setting:
 ```bash
 DB_HOST = "DB 호스트 이름"
 DB_NAME = "DB 이름"
@@ -99,6 +107,11 @@ DB_PASS = "DB 비밀번호"
 app.secret_key = "암호화 인증 비밀키"
 ```
 
+Install Flask:
+```bash
+pip install flask
+```
+Flask Execution:
 ```bash
 flask run
 ```
