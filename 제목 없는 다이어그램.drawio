@@ -1,47 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T13:34:38.459Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="rS47DRXiqIlGHelg9Ejr" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T14:21:47.360Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LvIDeRBr5YPf9WhPKCn9" version="21.4.0" type="github">
   <diagram name="Page-1" id="82e54ff1-d628-8f03-85c4-9753963a91cd">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2335" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4ec97bd9e5d20128-1" value="" style="line;strokeWidth=2;html=1;fillColor=none;fontSize=28;fontColor=#004D99;strokeColor=#004D99;" parent="1" vertex="1">
-          <mxGeometry x="40" y="400" width="1000" height="10" as="geometry" />
+          <mxGeometry x="-320" y="400" width="2040" height="10" as="geometry" />
         </mxCell>
         <mxCell id="4ec97bd9e5d20128-5" value="Stage 1" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#0075E8;fontSize=15;fontColor=#FFFFFF;size=0.5093750000000015;verticalAlign=top;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="120" y="340" width="160" height="40" as="geometry" />
+          <mxGeometry x="-240" y="340" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ec97bd9e5d20128-6" value="&lt;span&gt;Stage 3&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#0075E8;fontSize=15;fontColor=#FFFFFF;size=0.5093750000000015;verticalAlign=top;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="573" y="340" width="160" height="40" as="geometry" />
+          <mxGeometry x="320" y="340" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ec97bd9e5d20128-7" value="&lt;span&gt;Stage 2&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#0075E8;fontSize=15;fontColor=#FFFFFF;size=0.4178571428571445;flipV=1;verticalAlign=bottom;strokeColor=none;spacingBottom=4;" parent="1" vertex="1">
-          <mxGeometry x="347" y="425" width="160" height="35" as="geometry" />
+          <mxGeometry x="40" y="425" width="160" height="35" as="geometry" />
         </mxCell>
         <mxCell id="4ec97bd9e5d20128-8" value="&lt;span&gt;Stage 4&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#0075E8;fontSize=15;fontColor=#FFFFFF;size=0.4178571428571445;flipV=1;verticalAlign=bottom;strokeColor=none;spacingBottom=4;" parent="1" vertex="1">
-          <mxGeometry x="800" y="425" width="160" height="35" as="geometry" />
+          <mxGeometry x="600" y="430" width="160" height="35" as="geometry" />
         </mxCell>
         <mxCell id="4ec97bd9e5d20128-9" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" parent="1" vertex="1">
-          <mxGeometry x="190" y="395" width="20" height="20" as="geometry" />
+          <mxGeometry x="110" y="395" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="4ec97bd9e5d20128-10" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" parent="1" vertex="1">
-          <mxGeometry x="417" y="395" width="20" height="20" as="geometry" />
+          <mxGeometry x="390" y="395" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="4ec97bd9e5d20128-11" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" parent="1" vertex="1">
-          <mxGeometry x="643" y="395" width="20" height="20" as="geometry" />
+          <mxGeometry x="670" y="395" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="4ec97bd9e5d20128-13" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" parent="1" vertex="1">
-          <mxGeometry x="870" y="395" width="20" height="20" as="geometry" />
+          <mxGeometry x="950" y="395" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4ec97bd9e5d20128-14" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="93" y="430" width="215" height="120" as="geometry" />
+        <mxCell id="4ec97bd9e5d20128-14" value="&lt;h1 style=&quot;&quot;&gt;기획 단계&lt;/h1&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;·&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;프로젝트의 목표와 범위를 설정&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;·&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;팀원들의 의견 수렴, 요구 사항 분석&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;· 시장 조사, 경쟁 분석, 벤치마킹 탐색&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;·&amp;nbsp; 타겟 사용자의 니즈를 파악&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="441" width="320" height="199" as="geometry" />
         </mxCell>
-        <mxCell id="4ec97bd9e5d20128-16" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="319" y="250" width="215" height="120" as="geometry" />
+        <mxCell id="4ec97bd9e5d20128-16" value="&lt;h1&gt;요구 사항 분석 단계&lt;/h1&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;· 기획 단계에서 도출된 정보를 기반으로 프로젝트의 세부 요구 사항을 도출&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;·&amp;nbsp;팀원들 간의 협의를 통해 기술적인 요구사항 검토&lt;/span&gt;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="160" width="320" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="4ec97bd9e5d20128-17" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="545" y="430" width="215" height="120" as="geometry" />
+        <mxCell id="4ec97bd9e5d20128-17" value="&lt;h1&gt;설계 단계&lt;/h1&gt;&lt;p&gt;&amp;nbsp;· 설계 단계에서는 요구사항을 기반으로 프로그램의 구조와 아키텍처를 설계&lt;/p&gt;&amp;nbsp;· 개인 개발 보고서 및 간트 차트를 활용하여 설계 진행도를 파악" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="440" width="320" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="4ec97bd9e5d20128-18" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="773" y="250" width="215" height="120" as="geometry" />
+        <mxCell id="4ec97bd9e5d20128-18" value="&lt;h1&gt;개발 단계&lt;/h1&gt;&lt;div&gt;&amp;nbsp;· 설계 단계에서 도출된 구조와 아키텍처에 따라 실제 프로그램을 구현&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&amp;nbsp;· 프로그래밍 언어와 개발 도구를 사용하여 프론트엔드/백엔드 코드를 작성하고 데이터베이스를 구축&lt;br&gt;&lt;br&gt;&amp;nbsp;·&amp;nbsp;학교 수업과 개인 일정 등을 고려하여 효율적으로 작업을 진행하며, 코딩 스타일 가이드와 협업 도구를 사용해 일관성 있는 코드를 작성&lt;br&gt;&lt;div&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="160" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sLcLMWU10sF5JCUS95YE-4" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="395" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sLcLMWU10sF5JCUS95YE-5" value="&lt;span&gt;Stage 6&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#0075E8;fontSize=15;fontColor=#FFFFFF;size=0.4178571428571445;flipV=1;verticalAlign=bottom;strokeColor=none;spacingBottom=4;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="430" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sLcLMWU10sF5JCUS95YE-7" value="&lt;span&gt;Stage 5&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#0075E8;fontSize=15;fontColor=#FFFFFF;size=0.5093750000000015;verticalAlign=top;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="340" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sLcLMWU10sF5JCUS95YE-8" value="&lt;h1&gt;테스팅 단계&lt;/h1&gt;&lt;p&gt;&amp;nbsp;· 개발된 프로그램이 요구 사항을 충족하는지 그리고 오류 없이 작동하는지 확인&lt;/p&gt;&amp;nbsp;·&amp;nbsp;단위 테스트, 통합 테스트, 성능 테스트 등을 통해 발견된 버그와 오류를 지속적으로 확인해 개발&lt;br&gt;&lt;br&gt;&amp;nbsp;·&amp;nbsp;프로젝트 완료 및 최종 발표 때까지 반복적으로 진행&lt;br&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="441" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sLcLMWU10sF5JCUS95YE-9" value="&lt;h1&gt;유지 보수 단계&lt;/h1&gt;&lt;p&gt;&amp;nbsp;· 프로그램 로컬 실행에서 발생하는 문제를 수정하고 성능 개선, 새로운 기능 추가 등의 작업을 수행&lt;/p&gt;&amp;nbsp;·&amp;nbsp;현업 개발자의 피드백을 수집하고 분석하여 프로그램을 개선&lt;br&gt;&lt;br&gt;&amp;nbsp;·&amp;nbsp;프론트엔드 및 백엔드 코드 최적화 진행&lt;br&gt;&lt;p&gt;&amp;nbsp;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="160" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sLcLMWU10sF5JCUS95YE-10" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="395" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sLcLMWU10sF5JCUS95YE-15" value="&lt;span&gt;Stage 7&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#0075E8;fontSize=15;fontColor=#FFFFFF;size=0.5093750000000015;verticalAlign=top;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="330" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sLcLMWU10sF5JCUS95YE-16" value="&lt;h1&gt;최종 발표 단계&lt;/h1&gt;&lt;p&gt;&amp;nbsp;· 팀 보고서 작성&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&amp;nbsp;· PPT 발표 자료 제작&lt;br&gt;&lt;br&gt;&amp;nbsp;· 탁상 달력 프로토타입 공개&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;· 프로그램 Demo 버전 공개&lt;br&gt;&amp;nbsp;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="440" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sLcLMWU10sF5JCUS95YE-17" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="395" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
