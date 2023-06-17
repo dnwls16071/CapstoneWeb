@@ -58,6 +58,24 @@
 |Frontend|Javascript, HTML5, CSS, Jquery, Ajax|
 |IDE|Vs Code, Pycharm Community Professional 2023.1.1|
 
+# Service Mechanism
+
+* Python Flask와 FullCalendar 간의 통신을 Ajax(Asynchronous Javascript and XML)를 사용하여 구현
+
+* FullCalendar는 클라이언트 측 Javascript 라이브러리이고 웹 페이지에 대한 동적인 캘린더 기능을 제공
+
+* Flask는 서버 측 Python 프레임워크로 클라이언트의 요청에 대한 응답을 수신하고 처리하는 역할 수행
+
+1. FullCalendar 표시 : FullCalendar을 웹 페이지에 출력하고 캘린더에 대한 모든 요소를 준비
+
+2. Ajax 요청 : FullCalendar에서 이벤트를 가져오거나 서버로 데이터를 전송하기 위해 Ajax 요청을 수행
+
+3. Flask Route(경로) 설정 : 해당 Ajax 요청을 처리할 라우트를 설정하고 라우트를 정상적으로 이루어지게 설정하여 클라이언트의 요청을 수신하고 필요한 데이터를 처리
+
+4. 데이터 처리 및 응답 : Python 프레임워크에서 JSON 라이브러리를 임포트하여 데이터를 JSON 형식으로 변환하여 클라이언트에게 응답으로 전송
+
+5. 클라이언트 측 처리 : 클라이언트는 받은 JSON 응답을 FullCalendar에 적용(CRUD)
+
 # Tech Stack
 
 <div class="container">
